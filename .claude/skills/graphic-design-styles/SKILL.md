@@ -1,21 +1,24 @@
 ---
 name: graphic-design-styles
 description: >
-  Apply one of 25 named graphic design styles (Acid Graphic, Bauhaus, Y2K Kawaii, Grindhouse,
-  Holographic Interface, Swiss, Brutalism, Neo-Brutalism, Memphis, Art Deco, Psychedelic 60s,
-  Vaporwave, Risograph, Constructivism, Mid-Century Modern, Glassmorphism, Synthwave, 90s Grunge,
-  Pop Art, Art Nouveau, Japanese Minimalism, Cyberpunk, Dada Collage, Blueprint, Op Art) to a
-  poster, page, UI or image prompt. Use when the user names one of these styles, asks for design
-  inspiration or a style to try, or wants an image-generation prompt (Gemini, Midjourney and so on)
-  in a given style.
+  Apply one of 39 named graphic design styles to a poster, page, UI or image prompt:
+  Acid Graphic, Bauhaus, Y2K Kawaii, Grindhouse, Holographic Interface, Swiss / International,
+  Brutalism, Neo-Brutalism, Memphis, Art Deco, Psychedelic 60s, Vaporwave, Risograph,
+  Constructivism, Mid-Century Modern, Glassmorphism, Synthwave, 90s Grunge, Pop Art, Art Nouveau,
+  Japanese Minimalism, Cyberpunk, Dada Collage, Blueprint, Op Art, Minimalism, Maximalism,
+  Futuristic, Vector Art, Retro (70s), Clay Style, Pixel Art, Editorial, Surreal Design, Bohemian,
+  Victorian Style, Graffiti, Aurora, Handwritten.
+  Use when the user names one of these styles, asks for design inspiration or a style to try,
+  or wants an image-generation prompt (Gemini, Midjourney and so on) in a given style.
 ---
 
 # Graphic design styles
 
-A reference of 25 styles. Each entry gives what defines the style, its palette, type, layout and a
-ready-to-use image prompt. Styles 1-5 come from the caption of @ohneis652's Instagram reel
-"25 graphic design styles in 40 seconds"; the reel's own prompts were not available, so every
-prompt here is written fresh. Styles 6-25 are well-known styles added to complete the set.
+A reference of 39 styles. Each entry gives what defines the style, its palette, type, layout
+and a ready-to-use image prompt. Sources are marked on each heading: styles from the caption of
+@ohneis652's Instagram reel "25 graphic design styles in 40 seconds", styles from a second list of
+20 graphic design styles the user shared, and well-known styles added to round out the set. Every
+prompt here is written fresh; none are copied from the reels.
 
 ## How to use
 
@@ -329,4 +332,172 @@ Black-and-white optical illusions: concentric rings, warped stripes, moiré vibr
 
 ```text
 Graphic design poster in the Op Art style about [SUBJECT]. Strict black and white only. Full-bleed optical illusion of concentric rings and warped stripes that appear to bulge and vibrate, moiré effects, precise geometry, small minimal sans-serif caption. Bridget Riley, Victor Vasarely, 4:5 portrait.
+```
+
+### 26. Minimalism (from the user's list)
+
+Only what is needed: one element, one thin line, lots of empty space, black on near-white.
+
+- **Palette:** `#FAFAF7`, `#111111`, `#9A9A94`
+- **Type:** Light geometric sans, small, widely tracked.
+- **Layout:** A single small element placed with care in a large empty field.
+
+```text
+Graphic design poster in the Minimalist style about [SUBJECT]. Near-white background, black only, one small precise geometric element, one thin line, more than 80% empty space. Small light sans-serif text with wide letter-spacing in a corner. Calm, precise, nothing decorative, 4:5 portrait.
+```
+
+### 27. Maximalism (from the user's list)
+
+More is more: clashing patterns, saturated colour, layered shapes and loud stacked type.
+
+- **Palette:** `#FF4F9A`, `#FFD23F`, `#1FB5AD`, `#6B2FD6`, `#FF6A00`
+- **Type:** Loud display type with stacked multicolour shadows.
+- **Layout:** Every inch filled; patterns on patterns, layers overlapping.
+
+```text
+Graphic design poster in the Maximalist style about [SUBJECT]. Every inch filled: clashing checkerboard, stripes, florals and dots in saturated pink, yellow, teal, purple and orange, layered cut-out shapes, a loud headline with stacked multicolour shadows. Joyful excess, rich textures, 4:5 portrait.
+```
+
+### 28. Futuristic (from the user's list)
+
+Clean optimistic sci-fi: brushed silver and white, glowing orbs, thin precise lines, wide techno type.
+
+- **Palette:** `#E8EEF2`, `#C9D6DF`, `#FFFFFF`, `#2B3A4A`, `#5BC0FF`
+- **Type:** Wide extended techno sans, small and spaced.
+- **Layout:** A single luminous object floating with orbit lines, generous space.
+
+```text
+Graphic design poster in a clean Futuristic style about [SUBJECT]. Brushed silver and white gradient background, a luminous floating sphere with soft blue glow, thin precise orbit lines, a small wide extended techno sans headline with generous letter-spacing. Optimistic, sleek, product-render lighting, 4:5 portrait.
+```
+
+### 29. Vector Art (from the user's list)
+
+Flat illustration with clean geometric shapes, no texture, limited bright palette.
+
+- **Palette:** `#7FD1E8`, `#FFC94A`, `#2E6E5E`, `#3F8F6F`, `#FFFFFF`
+- **Type:** Rounded friendly sans, if any.
+- **Layout:** A simple flat scene built from layered shapes.
+
+```text
+Graphic design poster in a flat Vector Art illustration style about [SUBJECT]. Clean geometric shapes with crisp edges, no gradients or textures, a limited bright palette of sky blue, sunny yellow and greens, layered hills and simple clouds. Friendly rounded sans-serif title. Modern flat illustration, 4:5 portrait.
+```
+
+### 30. Retro (70s) (from the user's list)
+
+1970s warmth: orange, mustard and brown rainbow stripes, rounded groovy type, cream paper.
+
+- **Palette:** `#F3E3C3`, `#E2711D`, `#E9B23B`, `#7A3E1D`, `#C2452D`
+- **Type:** Rounded, chunky groovy display face.
+- **Layout:** Stacked rainbow arcs or stripes with a centred title.
+
+```text
+Graphic design poster in a 1970s Retro style about [SUBJECT]. Cream paper background, warm orange, mustard, rust and brown rainbow stripes in rounded arcs, a chunky rounded groovy headline, slight paper grain and faded print. Nostalgic, warm, 4:5 portrait.
+```
+
+### 31. Clay Style (from the user's list)
+
+Soft puffy 3D shapes that look modelled from clay, pastel colours, soft shadows and highlights.
+
+- **Palette:** `#F5E6FF`, `#FF9BB3`, `#8FD3FE`, `#FFD66B`, `#6C4AB6`
+- **Type:** Rounded bold sans that looks inflated.
+- **Layout:** A few chunky soft objects sitting on a plain pastel ground.
+
+```text
+Graphic design poster in Clay style (claymorphism) about [SUBJECT]. Soft puffy 3D shapes that look hand-modelled from matte clay, pastel pink, sky blue and butter yellow on a lavender background, soft studio lighting with gentle shadows and highlights, a rounded inflated-looking headline. Cute, tactile, 3D render, 4:5 portrait.
+```
+
+### 32. Pixel Art (from the user's list)
+
+Low-resolution 8-bit look: square pixels, limited game palette, blocky bitmap type.
+
+- **Palette:** `#1D2B53`, `#FF004D`, `#FFEC27`, `#29ADFF`, `#FFF1E8`
+- **Type:** Bitmap pixel font.
+- **Layout:** A centred pixel sprite with a score line, like a game screen.
+
+```text
+Graphic design poster in an 8-bit Pixel Art style about [SUBJECT]. Low-resolution square pixels, a limited retro game console palette of navy, red, yellow, blue and cream, a centred pixel sprite, a bitmap pixel-font title and a score line. No anti-aliasing, crisp blocky edges, 4:5 portrait.
+```
+
+### 33. Editorial (from the user's list)
+
+Magazine layout: a big high-contrast serif masthead, a strong photo, thin rules and columns.
+
+- **Palette:** `#F2EFEA`, `#111111`, `#B8B2A7`, `#C2452D`
+- **Type:** High-contrast display serif with a small sans for captions.
+- **Layout:** Masthead on top, large image block, text set in narrow columns with rules.
+
+```text
+Graphic design poster in an Editorial magazine style about [SUBJECT]. Off-white page, a huge high-contrast serif masthead, one large black-and-white photograph, thin rules, captions and body copy in narrow columns, a single red accent for an issue number. Fashion and culture magazine cover, 4:5 portrait.
+```
+
+### 34. Surreal Design (from the user's list)
+
+Dreamlike impossible scenes: objects out of place, a door to another sky, soft desert light.
+
+- **Palette:** `#F7C8A0`, `#8EC5FC`, `#E8C38A`, `#1D2547`, `#FFFFFF`
+- **Type:** Elegant italic serif, small.
+- **Layout:** A wide empty landscape with one impossible object at its centre.
+
+```text
+Graphic design poster in a Surreal style about [SUBJECT]. A calm empty desert under a soft peach and blue sky, one impossible object: a free-standing doorway opening onto a night sky with stars, a floating stone sphere and its shadow. Dreamlike, quiet, Magritte and Dalí, elegant small italic serif title, 4:5 portrait.
+```
+
+### 35. Bohemian (from the user's list)
+
+Earthy, free-spirited and handmade: terracotta, sage and sand, sun rays, arches and dots.
+
+- **Palette:** `#E9D8BF`, `#C8643B`, `#8A9A5B`, `#7A4A2A`, `#F2C48D`
+- **Type:** Relaxed handwritten script with a soft serif.
+- **Layout:** Sun or arch motif with organic patterns around a script title.
+
+```text
+Graphic design poster in a Bohemian (boho) style about [SUBJECT]. Warm sand background, terracotta, sage green, rust and peach, a half sun with fine rays, nested arches, hand-drawn dots and dried palm leaves, a relaxed handwritten script title. Earthy, free-spirited, handmade texture, 4:5 portrait.
+```
+
+### 36. Victorian Style (from the user's list)
+
+Ornate 19th-century print: decorative woodtype, gold filigree borders, dark rich grounds.
+
+- **Palette:** `#1E1A17`, `#C2A15B`, `#E9DCC0`, `#6E1E1E`
+- **Type:** Decorative slab and woodtype capitals, several sizes mixed.
+- **Layout:** Symmetric, framed by ornate double borders and flourishes.
+
+```text
+Graphic design poster in a Victorian style about [SUBJECT]. Deep dark brown background, ornate gold double borders, filigree corners and flourishes, decorative woodtype and slab-serif capitals in several sizes, centred symmetric layout, 'Est. 1887' details, aged engraved print texture. 19th-century playbill, 4:5 portrait.
+```
+
+### 37. Graffiti (from the user's list)
+
+Street art: spray-painted letters with drips and glow, tags and bold outlines on a brick wall.
+
+- **Palette:** `#8A3B2C`, `#FF2E88`, `#21E6C1`, `#FFE600`, `#111111`
+- **Type:** Spray-painted wildstyle or marker letters with outlines.
+- **Layout:** Big tag across a wall texture, drips and overspray.
+
+```text
+Graphic design poster in a Graffiti street-art style about [SUBJECT]. Red brick wall background, a big spray-painted wildstyle headline in hot pink, teal and yellow with thick black outlines, paint drips, overspray glow, small marker tags and stickers around it. Urban, energetic, 4:5 portrait.
+```
+
+### 38. Aurora (from the user's list)
+
+Northern-lights gradients: soft glowing ribbons of green, teal and violet over a dark starry sky.
+
+- **Palette:** `#050816`, `#3DFFB0`, `#22D3EE`, `#8B5CF6`, `#FFFFFF`
+- **Type:** Thin clean sans in white.
+- **Layout:** Blurred glowing gradient ribbons filling the sky, small text below.
+
+```text
+Graphic design poster in an Aurora style about [SUBJECT]. Dark starry night background with soft blurred glowing ribbons of green, teal and violet light like the northern lights, smooth mesh gradients, subtle grain, a thin clean white sans-serif title. Ethereal, calm, 4:5 portrait.
+```
+
+### 39. Handwritten (from the user's list)
+
+Hand-lettered and imperfect: wobbly marker letters on hand-cut shapes, warm and personal.
+
+- **Palette:** `#B83A32`, `#F3E6CF`, `#7A1F1A`
+- **Type:** Wobbly hand-drawn marker lettering.
+- **Layout:** Lettering on hand-cut blobs, a small handwritten note below.
+
+```text
+Graphic design poster in a Handwritten style about [SUBJECT]. Brick-red background, the title hand-lettered in wobbly dark-red marker on irregular hand-cut cream paper shapes, a short handwritten line underneath, slight paper texture. Offbeat, warm, personal, imperfect on purpose, 4:5 portrait.
 ```
