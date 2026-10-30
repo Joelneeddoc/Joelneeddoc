@@ -5,9 +5,16 @@
         "source": "github",
         "repo": "HKUDS/CLI-Anything"
       }
+    },
+    "ponytail": {
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
     }
   },
   "enabledPlugins": {
-    "cli-anything@cli-anything": true
+    "cli-anything@cli-anything": true,
+    "ponytail@ponytail": true
   }
 }
